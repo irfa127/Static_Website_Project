@@ -1,0 +1,101 @@
+
+ .spoke{
+    background-color: #5F9EA0;
+    color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+   padding: 50px;
+}
+.about {
+ 
+  padding: 200px 20px;
+  text-align: center;
+    background: linear-gradient(180deg,#e6fff8,#fff);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+box-shadow: 12px 9px 3px 3px rgba(7, 7, 7, 0.2);
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  color:black;
+  line-height: 1.7;
+    
+}
+
+.about-img {
+  flex: 1;
+  text-align: center;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+   box-shadow: 12px 9px 3px 3px rgba(7, 7, 7, 0.2);
+  
+}
+footer {
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  background-color: 
+#5F9EA0;
+    list-style-type: none;
+    margin-top: 170px;
+    border-radius: 40px;
+}
+footer div p {
+    text-align: start;
+}
+footer h1 {
+    color: aliceblue;
+ font-size: x-large;
+}
+.email p:hover {
+    text-decoration: underline;
+}
+.back a{
+    margin-left: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+font-size: xx-large; 
+color: #222;}
+.back a:hover{
+background-color: bisque;
+color: gray;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,57 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fc;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+#ASSES {
+  max-width: 1200px;
+  margin: 0 auto;
+ background: linear-gradient(180deg,#e6fff8,#fff); ;
+}
+
+.easy-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto); 
+  gap: 20px;
+  justify-items: center;
+  align-items: center; 
+}
+
+.easy-1 div,
+.easy-1 a {
+  text-align: center;
+}
+
+.easy-1 img {
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.easy-1 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.easy-1 p {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #444;
+}
+
+
